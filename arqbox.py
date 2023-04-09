@@ -365,7 +365,7 @@ def rampa_incl():
         sugest_alt = (8.33 * float(entry_rampa_compr.get())) / 100
 
         # Cria um alerta caso a inclinação da rampa seja maior que 8.33%
-        if ri > 8.33:
+        if ri > 8.34:
             msg_alert = f'[AVISO]: A inclinação de rampa calculada é superior ao\nestipulado pela NBR 9050 ' \
                               f'Redomenda-se, portanto, os\ndevidos ajustes de dimensões.\n\nCaso deseje manter a ' \
                               f'altura da rampa em {entry_rampa_altura.get()} m,\nrecomenda-se um comprimento de ' \
