@@ -991,6 +991,8 @@ def escada_alt():
         lbl_result.grid_forget()
         lbl_resolut.config(text='')
         lbl_resolut.grid_forget()
+        lbl_alert.config(text='')
+        lbl_alert.grid_forget()
 
     # Cria um botão para limpar o cálculo
     btn_clean = Button(ea_window, text='Limpar', font=std_font, fg=main_txt, activeforeground=active_fg,
